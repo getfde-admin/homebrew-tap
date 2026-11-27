@@ -5,27 +5,27 @@
 class Qc < Formula
   desc "QCode developer CLI: sign in, claim a key, set up AI coding tools"
   homepage "https://qcode.qinity.my"
-  version "0.3.0"
+  version "0.3.1"
   # qc is closed-source; there is no SPDX identifier to record.
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/getfde-admin/qc-releases/releases/download/cli/v0.3.0/qc_0.3.0_darwin_arm64.tar.gz"
-      sha256 "35ae2ca8603630479dc54837c1a9b81480cf7d7cae44d7a6fa9d77027253a41f"
+      url "https://github.com/getfde-admin/qc-releases/releases/download/cli/v0.3.1/qc_0.3.1_darwin_arm64.tar.gz"
+      sha256 "9336c9195d518c12dca935a0cc41f6b162c9560ed0e6f7328b6973836855a0f2"
     else
-      url "https://github.com/getfde-admin/qc-releases/releases/download/cli/v0.3.0/qc_0.3.0_darwin_amd64.tar.gz"
-      sha256 "1b6ebf4fe86d0d5da6edba2d02c169860df56571ec6e19d530743922eedbbc8c"
+      url "https://github.com/getfde-admin/qc-releases/releases/download/cli/v0.3.1/qc_0.3.1_darwin_amd64.tar.gz"
+      sha256 "19bfbe45901959e2821968f49fc24b1257a1b65c4da2dc1c9efbb2ddeeb2cb97"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/getfde-admin/qc-releases/releases/download/cli/v0.3.0/qc_0.3.0_linux_arm64.tar.gz"
-      sha256 "a6d211030e5501bb53ada45b0fe001efce65163432c6e2cbdaf976f30f77e826"
+      url "https://github.com/getfde-admin/qc-releases/releases/download/cli/v0.3.1/qc_0.3.1_linux_arm64.tar.gz"
+      sha256 "2886ffafb2554b693072beb57d17233d7de202e1c41dc861c8dfd62553fccb56"
     else
-      url "https://github.com/getfde-admin/qc-releases/releases/download/cli/v0.3.0/qc_0.3.0_linux_amd64.tar.gz"
-      sha256 "25d2ac954f04421b91295c43b43a18170ca57eeeffa746ca6ede3c95427d7f85"
+      url "https://github.com/getfde-admin/qc-releases/releases/download/cli/v0.3.1/qc_0.3.1_linux_amd64.tar.gz"
+      sha256 "27111ad9166ef151434698d20dd7a9059fbe4ebde3f854d989eae7efda606394"
     end
   end
 
